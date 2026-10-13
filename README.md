@@ -6,6 +6,16 @@ Projeto desenvolvido no contexto da disciplina de **Orientação a Objetos (OO)*
 
 ---
 
+## 📸 Demonstração das Telas
+
+### 🔐 Tela de Login
+![Tela de Login](Imagens/001.png)
+
+### 📊 Gerenciador de Tarefas (Quadro Kanban)
+![Quadro Kanban](Imagens/002.png)
+
+---
+
 ## Funcionalidades
 
 ### Autenticação & Usuários
@@ -50,6 +60,10 @@ task/
 │   ├── cadastro.tpl            # Tela de Cadastro de Usuário
 │   ├── task_manager.tpl        # Quadro Kanban interativo
 │   └── helper.tpl              # Guia de apoio pedagógico (BMVC)
+│
+├── Imagens/                    # Capturas de tela do sistema
+│   ├── 001.png                 # Tela de Login
+│   └── 002.png                 # Quadro Kanban
 │
 └── tests/                      # Suíte de testes automatizados
     ├── test_app.py             # Testes de integração dos controllers
